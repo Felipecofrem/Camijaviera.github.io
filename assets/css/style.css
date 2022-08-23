@@ -53,6 +53,11 @@ div a{
     color: rgb(6, 6, 6);
 }
 
+div a:hover{
+    text-decoration: none;
+    color: white;
+}
+
 #Mi-trayectoria .image-top {
     height: 300px;
     background-repeat: no-repeat;

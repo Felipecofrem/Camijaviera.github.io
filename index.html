@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md pb-2 pt-2 fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-md pb-2 pt-2">
         <div class="container">
             <a class="navbar-brand"><img src="assets/img/logo camila.png" alt="logo Camila Javiera" width="250px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,20 +30,20 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Acerca de mi</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#Acerca-de-mi">Acerca de mi</a>
                     </li>
                     <li class="nav-item tex">
-                        <a class="nav-link text-white" href="#">Desafios</a>
+                        <a class="nav-link text-white" href="#Mi-trayectoria">Desafios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contacto</a>
+                        <a class="nav-link text-white" href="#Contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <main id="Section" class="text-light text-center pt-5 mt-5 background">
+    <main id="Section" class="text-light text-center pt-5 mt-0 background">
         <div class="container-fluid">
             <div class="ms-auto col-12">
                 <h1 class="display-5 fw-bold my-5 text-center">
@@ -54,7 +54,7 @@
                     Soy desarrolladora Full Stack de la Academia Desafío Latam. Podré ayudarte en la creación de tu página web, solo debes indicarme tus requerimientos para que comencemos a trabajar. <br>
                     En esta página encontrarás una recopilación de los desafíos realizados, además de conocer algunas de mis fortalezas, para ello solo deberás hacer click más abajo ↡
                 <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-danger text-light me-4"><a href="#Mi-trayectoria">🌎Desafios</a></button>
+                    <button class="btn btn-lg btn-danger text-light me-4"><a href="#Mi-trayectoria">🖥Desafios</a></button>
                     <button class="btn btn-lg btn-danger text-light"><a href="#Contacto">📩Contáctame</a></button>
                 </div>
             </div>
@@ -83,11 +83,11 @@
     </section>
 
     <section id="Mi-trayectoria" class="my-5 p-5 background">
-        <h2 class="display-5 fw-bold text-center text-white mb-3 text-decoration-underline">DESAFÍOS</h2>
+        <h2 class="display-5 fw-bold text-center text-white mb-3 ">DESAFÍOS</h2>
         <div class="row">
             <div class="col-12 col-md-3 py-2">
                 <div class="card border-dark">
-                    <div class="image-top" style="background-image: url(assets/img/html.jpg)"></div>
+                    <div class="image-top rounded-top" style="background-image: url(assets/img/html.jpg)"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold text-center">Mi Curriculum Vitae</h5>
                         <p class="card-text">
@@ -97,7 +97,7 @@
                                 <li>Implementación adecuada de la estructura y sintaxis de las etiquetas del documento HMTL</li>
                             </ul>
                         </p>
-                        <button type="button" class="btn btn-outline-danger">
+                        <button type="button" class="btn btn-outline-primary">
                             <a href="https://camijaviera.github.io/CV-Desafio1-HTML/" target="_blank" rel="noreferrer">Ir a Mi Curriculum Vitae</a>
                         </button> 
                     </div>
@@ -105,7 +105,7 @@
             </div>
             <div class="col-12 col-md-3 py-2">
                 <div class="card border-dark">
-                    <div class="image-top" style="background-image: url(assets/img/css.jpg)"></div>
+                    <div class="image-top rounded-top" style="background-image: url(assets/img/css.jpg)"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold text-center">Landing Page</h5>
                         <p class="card-text">
@@ -115,7 +115,7 @@
                                 <li>Implementación de bordes, margen, padding y selectores de etiqueta o clase.</li>
                             </ul>
                         </p>
-                        <button type="button" class="btn btn-outline-danger">
+                        <button type="button" class="btn btn-outline-primary">
                             <a href="https://camijaviera.github.io/Landing_page-Desafio2-CSS/" target="_blank" rel="noreferrer">Ir a Mi Landing Page</a>
                         </button> 
                     </div>
@@ -123,7 +123,7 @@
             </div>
             <div class="col-12 col-md-3 py-2">
                 <div class="card border-dark">
-                    <div class="image-top" style="background-image: url(assets/img/posicionamiento.png)"></div>
+                    <div class="image-top rounded-top" style="background-image: url(assets/img/posicionamiento.png)"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold text-center">Posicionamiento</h5>
                         <p class="card-text">
@@ -133,7 +133,7 @@
                                 <li>Implementación de floats para posicionar texto e imágenes</li>
                             </ul>
                         </p>
-                        <button type="button" class="btn btn-outline-danger">
+                        <button type="button" class="btn btn-outline-primary">
                             <a href="https://camijaviera.github.io/Iguana_page-Desafio3-Posicionamiento/" target="_blank" rel="noreferrer">Ir a Iguana Page</a>
                         </button> 
                     </div>
@@ -141,7 +141,7 @@
             </div>
             <div class="col-12 col-md-3 py-2">
                 <div class="card border-dark">
-                    <div class="image-top" style="background-image: url(assets/img/bootstrap.png)"></div>
+                    <div class="image-top rounded-top" style="background-image: url(assets/img/bootstrap.png)"></div>
                     <div class="card-body">
                         <h5 class="card-title fw-bold text-center">Mi Page en Bootstrap</h5>
                         <p class="card-text">
@@ -151,7 +151,7 @@
                                 <li>Implementación adecuada de clases de Bootstrap mediante componentes card y formularios</li>
                             </ul>
                         </p>
-                        <button type="button" class="btn btn-outline-danger">
+                        <button type="button" class="btn btn-outline-primary">
                             <a href="https://camijaviera.github.io/Page-Desafio4-Bootstrap/" target="_blank" rel="noreferrer">Ir a Mi Page</a>
                         </button> 
                     </div>
@@ -186,7 +186,7 @@
 
     <footer class="bg-dark text-center text-light p-4">
         <p class="mb-0">©2022 Esta es una web de Camila Javiera.</p>
-        <a href="#Section" class="">⬆ Ir al comienzo</a>
+        <a href="#navbar">⬆ Ir al comienzo</a>
     </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
